@@ -1,0 +1,341 @@
+@keyframes appear {
+
+    from{
+      opacity: 0;
+      scale: 0.5;
+    }
+    to{
+      opacity: 1;
+      scale: 1;
+    }
+    
+  }
+
+    * {
+      margin: 0px;
+      padding: 0px;
+    }
+
+    @font-face {
+      font-family: "Typold Book 500";
+      font-style: normal;
+      font-weight: normal;
+      src: local("Typold Book 500"),
+        url("The Northern Block Ltd - Typold Book.woff") format("woff");
+    }
+
+    body {
+      height: 100vh;
+      background-color: aliceblue;
+    }
+
+    nav {
+      padding: 20px;
+      margin-bottom: 40px;
+      display: flex;
+      justify-content: space-between;
+    }
+    ul {
+      list-style: none;
+      display: flex;
+    }
+
+    a {
+      text-decoration: none;
+      color: rgb(0, 0, 0);
+    }
+    .it {
+      align-self: center;
+      padding: 0px 20px;
+      font-family: "Typold Book 500", sans-serif;
+    }
+
+    .img1{
+      animation: appear linear;
+      animation-timeline: view();
+      animation-range: entry 0% cover 40%;
+    }
+    .name {
+      
+      align-self: center;
+      padding: 0px 20px;
+    }
+
+    .intro {
+     
+      margin: auto;
+      display: grid;
+      grid-template-columns: 790px 690px;
+      place-items: center;
+    }
+    .introp {
+    
+      padding: 20px;
+      margin: 10px;
+      font-family: "Typold Book 500", sans-serif;
+
+      color: rgb(80, 80, 80);
+      
+    }
+    h2 ,h3 {
+     
+      font-family: "Typold Book 500", sans-serif;
+     font-weight: 400;
+      font-size: 40px; 
+      color: black;
+    }
+    .achi{
+      font-family: "Typold Book 500", sans-serif;
+      font-weight: 400;
+      font-size: 22px;
+    }
+    
+    .op h2{
+      margin: 20px;
+
+    }
+    .icons {
+
+      display: flex;
+      padding-top: 40px;
+      align-items: center;
+    }
+    .icons img {
+      animation: appear linear;
+      animation-timeline: view();
+      animation-range: entry 0% cover 40%;
+      
+      padding-right: 15px;
+      border-radius: 50%;
+    }
+    .skill_img , .img2 , h2, .skills,.achieve,.achi{
+      animation: appear linear;
+      animation-timeline: view();
+      animation-range: entry 0% cover 40%;
+    }
+
+    .button {
+      padding-top: 20px;
+      padding-left: 5px;
+      margin-left: 5px;
+    }
+    .btn1,
+    .btn2 {
+      
+      margin-right: 60px;
+
+      border-radius: 5px;
+      border-color: rgb(181, 181, 181);
+      background-color: rebeccapurple;
+    }
+
+    button p {
+      animation: appear linear;
+      animation-timeline: view();
+      animation-range: entry 0% cover 40%;
+      padding: 10px;
+      color: aliceblue;
+      font-family: "Montserrat", sans-serif;
+      font-weight: 500;
+      font-size: 20px;
+    }
+
+    .main {
+      display: grid;
+      grid-template-columns: 690px 790px;
+      margin: auto;
+    }
+    .whatIdo {
+      animation: appear linear;
+      animation-timeline: view();
+      animation-range: entry 0% cover 40%;
+      font-size: 30px;
+      font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+     
+    }
+
+    .prof {
+      display: grid;
+      grid-template-columns: 690px 790px;
+      margin: auto;
+    }
+
+    .Projects {
+      display: grid;
+      width:max-content;
+      grid-template-columns: 700px 700px;
+      grid-template-rows: 300px;
+      justify-content: center;
+      margin:auto;
+    }
+    .know {
+      animation: appear linear;
+      animation-timeline: view();
+      animation-range: entry 0% cover 40%;
+      background-color: rgb(213, 146, 247);
+      margin: 10px;
+      padding: 10px;
+      /* align-items: center; */
+      border-radius: 12px;
+    }
+    .know p{
+      animation: appear linear;
+      animation-timeline: view();
+      animation-range: entry 0% cover 40%;
+      padding: 10px;
+      color:rgb(241, 241, 241);
+      font-family: "Montserrat", sans-serif;
+      font-weight: 500;
+      font-size: 20px;
+    }
+    
+    .skillicons img{
+      margin: 10px 15px;
+    }
+    .wid{
+      display: block;
+      list-style-type:" 🚀 ";
+      font-family: 'sans-serif';
+      font-weight: 300;
+      font-size: 20px;
+      padding: 20px;
+      margin: 10px; 
+    }
+    .order{
+      display: grid;
+      width: max-content;
+      grid-template-columns: 370px 370px 370px;
+      grid-template-rows: auto;
+      column-gap: 50px;
+      justify-content: center;
+      margin: auto;
+    }
+    .achi{
+      background-color: antiquewhite;
+      margin: 20px 10px;
+      padding: 20px;
+      height: auto;
+      border-radius: 12px;
+      align-self: center;
+      text-align: center;
+
+    }
+    .achi img{
+      padding-bottom: 15px;
+    }
+
+    .skill_img{
+      align-self: center;
+      justify-self: center;
+    }
+
+    .green{
+      background-color: aqua;
+      border: 1px solid grey;
+      width:30%;
+    }
+    .skills{
+      padding: 20px;
+    }
+    .up{
+    position: fixed;
+    bottom: 20px;
+    right: 20px; 
+    width:60px;
+    height:60px;
+    border-radius: 50px;
+    border-color: rgba(240, 248, 255, 0);
+    background-color:rgb(212, 0, 255);
+    animation: appear linear;
+    animation-range: entry 0% cover 30%;
+
+ 
+}
+.up:hover{
+     width: 69px;
+     height: 69px;
+   }
+
+.imgso{
+  
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.comms,.comms h2{
+  animation: appear linear;
+      animation-timeline: view();
+      animation-range: entry 0% cover 0%;
+    
+  text-align: center;
+}
+.end{
+  font-family: "Typold Book 500", sans-serif;
+      font-weight: 400;
+      font-size: 22px;
+    }
+
+.social-icon{
+   margin: 20px;
+   margin-bottom: 5px;
+   padding-left: 40px;
+}
+/*media query here */
+    
+  
+  /* Media Queries for Responsiveness */
+  @media (max-width: 768px) {
+    .intro {
+      grid-template-columns: 1fr;
+      width: 90vw;
+      margin: auto;
+    }
+  
+    .main {
+      grid-template-columns: 1fr;
+      
+      width: 90vw;
+      margin: auto; /* Single column layout for mobile */
+    }
+  
+    .prof {
+        grid-template-columns: 1fr;
+        width: 90vw;
+        margin: auto; /* Single column layout for mobile */
+    }
+  
+    .Projects {
+      grid-template-columns: 1fr;
+      width: 90vw;
+      margin: auto; /* Single column layout for mobile */
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .intro {
+      padding: 10px;
+      font-size: 10px; }
+    
+  
+    .main {
+      padding: 10px;
+      font-size: 10px; 
+    }
+  
+    .prof {
+      padding: 10px;
+      font-size: 10px; 
+    }
+  
+    .Projects {
+      padding: 10px; 
+      font-size: 10px;
+      grid-template-columns: 1fr;
+        width: 90vw;
+        margin: auto; 
+      
+    }
+  }
+
+  
+  
